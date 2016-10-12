@@ -1,5 +1,5 @@
 # pagweb
-pagweb solo tendra codigos html y css (es posible que ponga algunas imagenes pero procuraré que sean las minimas).
+pagweb solo tendra codigos html y css (es posible que ponga algunas imagenes pero procuraré que sean las minimas) de practicas, ejercicios y proyectos.
 
 **Nota**: *En caso de que una pagina necesite PHP o javascript estarán es sus repectivos apartados*.
 
@@ -10,10 +10,11 @@ pagweb solo tendra codigos html y css (es posible que ponga algunas imagenes per
   + programacion
     - Python
     - Javascript
+    - PHP
 
-Ejercicios | Html | css | Javascript
------------|------|-----|------------
-Pagina html validad | si | no | no |no
+Ejercicios | Html | css | Javascript | PHP
+-----------|------|-----|------------|----
+Pagina html validad | si | no | no | no | no
 
 
 * [w3schools][1] 
