@@ -1,0 +1,205 @@
+
+
+
+
+
+
+body {	background-color:#000000; 
+	
+	
+	}
+
+
+
+#contenedor { 	 
+				width:600px; 
+				height:980px;
+				margin:auto; 
+				
+			
+	}
+	
+	
+	
+	
+#fondo {	 
+			background-image:url(../img/fondo_espacial.jpg);
+			width:600px; 
+			height:900px;
+			
+			
+			
+	}
+	
+	
+#luna {		
+			background-image:url(../img/luna.jpg);
+			width:600px; 
+			height:80px;
+			
+	}
+	
+	
+#zona_menus{	float:left; 
+				width:200px; 
+				height:900px;
+				 
+
+	}
+	
+	
+.inf_menu{	margin-left:10%;
+			font-family:Gazzarelli; 
+			font-size:30px; 
+			color:#2eb8b8;
+			float:left;
+		
+	
+	}
+	
+	
+	
+.img_menu{	width:40px;
+
+}
+	
+	
+	
+	
+#zona_nave{		float:left; 
+				width:200px; 
+				height:900px;
+				margin-left:auto; 
+			
+}	
+	
+	
+	
+	
+#nave{  background-image:url(../img/navee.png);
+		width:50px; 
+		height:90px;
+		margin:auto; 
+		
+}	
+	
+	
+	
+	
+#controles{ 	width:200px; 
+				height:900px;
+				margin-left:auto;
+	
+}
+	
+	
+	
+#control_pak{ 	width:60px; 
+				height:220px;
+				position:relative;
+    			top: 540px; 
+				float:right;
+				margin-right:20px; 
+    			
+}
+	
+
+
+#opciones{	margin-top:30px;
+			float:right;
+			width:50px; 
+			height:50px;
+	
+}	
+	
+	
+	
+	
+#pause{	float:right;
+		width:50px; 
+		height:50px;
+	
+	
+	
+}	
+	
+#reinicio{	width:50px; 
+			height:50px; 
+			margin-top:40px;
+			float:right;
+
+}	
+	
+	
+	
+#play {		margin-left:300px; 
+			margin-top:450px;
+	
+}
+
+	
+	
+#play2 {	width:72px; 
+			height:72px; 
+			float:right; margin-right:40px;
+			
+}
+	
+	
+	
+	
+#creditos {	  	width:200px; 
+				height:300px;
+				margin-left:40px;
+				
+
+}
+	
+.texto{ color:#FF3;
+}
+
+
+
+#instruc{	width:200px; 
+			height:400px;
+			 
+			margin-left:40px;
+	
+}
+	
+	
+	
+	
+#bot_propulsor{ 	  margin-top:300px;
+
+					margin-left:10px;
+					
+	
+}
+	
+	
+	
+#nave:hover{  	background-image:url(../img/navef3.png);
+				width:55px; 
+				height:110px;
+				margin:auto; 
+	
+}	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
