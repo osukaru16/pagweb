@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+	<head>
+ 		<title> Juego de naves </title>
+        <meta name="description" content=" Juego de naves ">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'>
+        <link rel='stylesheet' media='screen and (max-width: 960px)' href='css/m.css'>
+		<script src="js/js.js"></script>
+	</head>
+	<body>
+    	
+    
+    
+    
+ 		<div id="nave">
+    
+ 				<img id="nave_img" src="img/nave.png" alt="img nave" />
+         
+ 		</div>
+ 		<div class="a">
+ 			<div id="showm">
+            	<img src="img/atras.png" alt="atras" />
+            
+            </div>
+             
+ 			<ul id="cpanel">
+  				<li><img  class="icono" id="vel_img" src="img/icono_velocidad.PNG" alt="img velocidad" /> <span id="velocidad"></span></li>
+  				<li><img class="icono" id="fuel_img" src="img/icono_gasolina.PNG" alt="img fuel" /> <span id="fuel">||||||||||</span></li>
+  				<li><img class="icono" id="alt_img" src="img/icono_latitud.PNG" alt="img altura" /> <span id="altura"></span></li>
+ 			</ul>
+            
+ 		</div>
+        
+        <!--
+        <svg id="dibpropulsor"  width="230" height="220"> <circle id="dib_propulsor" cx="120" cy="110" r="100" fill="#2eb8b8" stroke="#1f7a7a" stroke-width="10"/> </svg> -->
+        
+        
+        
+        
+        <div class="b">
+        		<img  id="img_tierra" src="img/tierra.png" alt="img tierra" />
+        
+        </div>
+        
+        
+        
+        
+        <div class="c" >
+ 			<div id="hidem">
+            <img src="img/alante.png" alt="alante" />
+            </div> 
+            
+ 			<div id="menu">
+  				<a href="#" onClick="pause();">
+                	<img id="pausa"  class="botones" src="img/icono_pausav2.png" alt="Boton pausa" />
+                </a>
+           
+  				<a href="#" onClick="creditos();">
+  					<img id="acerca" class="botones" src="img/icono_menuv2.png" alt="Boton menu" />
+            	</a>
+                
+                
+              	<a href="#" onClick="ir_atras();">
+  					<img id="atras" src="img/atras.png" alt="Boton atras" />
+            	</a>
+                
+                
+                
+                
+                
+                
+                
+ 			</div>
+ 		</div>
+        <div id="propulsor">
+        	<img id="propulsor_img" src="img/bot_propulsorv2.png" alt="boton propulsor" />
+        </div>
+ 		<div class="d" id="luna"><img src="proyecto naves comp entregar nuevo Original PC con js/img/luna.jpg" alt="luna" /></div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div id="pantalla_pause_d">
+        	<div id="como"><h2>Como jugar</h2> El objetivo del juego es aterrizar la nave sin estrellarla, para eso est&aacute; el bot&oacute;n propulsor que enciende los propulsores si lo pulsas una vez y los apaga al volverlo a pulsar. <br/> <br/>Nota: Es un aterrizaje de emergencia el motor no soportar&aacute; estar a demasiada altitud y se apagar&aacute;.
+            </div>
+            
+            <div id="config">
+            	<a href="#" onClick="ver_pantalla_nave();">
+                	<div id="nave_config">
+                		<h1>Modelos de naves</h1>
+                	</div>
+            	</a>
+            
+            
+            
+            </div>
+            
+            
+            
+            
+        	<div class="pause_bot_menu">
+        		<a href="#" onClick="play();">
+        			<img class="bot_play" src="img/icono_play.PNG" alt="play boton" />
+        		</a>
+            
+       			<a href="index.html">
+        			<img class="bot_reinicio" src="img/icono_retryv2.png" alt="Boton retry" />
+        		</a>
+        	</div>
+        
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div id="pantalla_nave_config">
+        	<div id="elige_nave">
+            	<a href="#" onClick="izquirdaMenu();">
+        			<img id="flechaIz" src="img/fechaIz.png" alt="izq img" />
+                </a>
+        		
+           			<img id="muestra_nave" src="img/nave.png" alt="img nave" />
+        		<a href="#" onClick="derechaMenu();">
+            		<img id="flechaDer" src="img/fechaDer.png" alt="der img" />
+                </a>
+            </div>
+            <div id="opcion">
+            	<a href="#" onClick="aceptar();">
+            		<span class="aceptar">Aceptar</span>
+                </a>
+                
+              	<a href="#" onClick="cancelar();">
+                	<span class="cancelar">Cancelar</span>
+                </a>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div id="win">
+        	<h1> YOU WIN </h1>
+        
+        	<a href="index.html">
+        		<img class="reinicio" src="img/icono_retryv2.png" alt="Boton retry" />
+        	</a>
+        </div>
+        
+        
+        
+		<div id="lose">
+        	<h1> YOU LOSE </h1>
+            
+        	<a href="index.html">
+        		<img class="reinicio" src="img/icono_retryv2.png" alt="Boton retry" />
+        	</a>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div id="creditos">
+        	<div id="texto_creditos">
+        	<h1>CR&Eacute;DITOS:</h1> Cliente: Mohamed Rachidi Grupo integrado por: Mohamed Rachidi, Simarjeet Singh y
+Deniz Uysal Canaves <br/>
+
+			Dise&ntilde;adores de Naves:
+            Nave 1: Deniz Uysal Canaves.
+            Nave 2: Mohamed Rachidi.
+            Nave 3: Oscar Otelo Dom&iacute;nguez Oss&oacute;.
+            
+            Diseñadores de Menus:
+            Simarjeet Singh
+            
+            Ayuda externa:
+            Jamal El Boutaibi.
+            
+            Desarrollador, tester etc... :
+            Oscar Otelo Dom&iacute;nguez Oss&oacute;.
+            
+            Versi&oacute;n del software 1.0.0
+            
+        	</div>
+        	<div class="pause_bot_menu">
+        		<a href="#" onClick="play();">
+        			<img class="bot_play" src="img/icono_play.PNG" alt="play boton" />
+        		</a>
+            
+       			<a href="index.html">
+        			<img class="bot_reinicio" src="img/icono_retryv2.png" alt="Boton retry" />
+        		</a>
+        	</div>
+        
+        
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         <div id="menu_movil">
+         	<a href="#" onClick="instrucciones();">
+            	<div id="opcion1" class="opciones_movil"><h1>Instrucciones</h1>
+                </div>
+          	</a>
+            
+            
+            <a href="#" onClick="ver_pantalla_nave_movil();">
+         		<div id="opcion2" class="opciones_movil"><h1>Modelos de naves</h1></div>
+            </a>
+            
+            <a href="#" onClick="creditos_movil();">
+         		<div id="opcion3" class="opciones_movil"><h1>Acerca de</h1></div>
+            </a>
+         </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+	</body>
+</html>
