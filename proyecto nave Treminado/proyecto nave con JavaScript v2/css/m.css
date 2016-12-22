@@ -1,0 +1,234 @@
+@font-face {
+    font-family: myFirstFont;
+    src:url(../fuentes/gazzarelli.ttf);
+}
+
+
+
+body,html{height:100%;padding:0px;margin:0px;color:#FFFF33;}
+body{background-image:url(../img/fondo_espacial.jpg);}
+.a{width:100%;height:90px;overflow:hidden;position:fixed;top:0px;}
+.b{width:100%;height:100%;overflow:hidden;}
+.c{position:fixed;top:0px;bottom:0px;left:0px;right:0px;display:none;z-index:1;}
+.d{position:fixed;bottom:0px;height:10%;width:100%;}
+#nave{text-align:center;position:fixed;top:10%;width:100%;height:20%; z-index:2;}
+#nave img{height:100%; }
+
+#cpanel{font-family:Gazzarelli; 
+			font-size:20px; 
+			color:#2eb8b8;
+			list-style-type: none;
+		
+			
+			
+			
+}
+
+
+
+
+#hidem,#showm{float:right;}
+
+.icono{height:5%; width:5%;}
+
+#cpanel li {
+ display: inline;
+}
+
+
+
+
+
+#propulsor{position:fixed; left:1%; bottom:10%; width:100%; height:20%; z-index:2;}
+
+#propulsor img{ height:100%; 
+
+	
+}
+
+
+
+
+
+#img_tierra{	
+			z-index: 0;
+			
+			height: 60%;
+			position: fixed;
+			top: 20%;
+			}
+			
+			
+			
+			
+			
+			
+			
+		
+#pausa{display:none;}	
+
+
+#acerca{display:none;}
+
+
+#creditos{z-index:5; position:fixed; background-color:#85e0e0;    
+				width:80%; height:80%; left: 10%; top: 10%; 
+				border-radius: 10px; display:none; text-align:center; color:#b82e2e; }
+
+
+
+
+#texto_creditos{ width:80%; height:80%; margin:auto;}
+
+
+
+.bot_reinicio{float:right; margin-right:2%;}
+
+
+
+
+.bot_play{float:left; margin-left:2%;}
+
+
+
+
+
+
+
+
+
+
+
+
+#win{ z-index:3; position:fixed; background-color:#85e0e0;  
+				width:60%; height:50%; left: 20%; top: 20%;  opacity: 0.9;
+				border-radius: 10px; display:none;
+				color:#b82e2e;
+				text-align:center;}
+
+
+
+
+#lose{ z-index:3; position:fixed; background-color:#85e0e0;  
+				width:60%; height:50%; left: 20%; top: 20%;  opacity: 0.9;
+				border-radius: 10px; display:none;
+				color:#b82e2e;
+				text-align:center;
+				
+				
+				}
+
+
+
+
+
+
+
+
+
+#menu_movil{z-index:4; position:fixed; background-color:#85e0e0;    
+				width:100%; height:90%; top:10%;
+				border-radius: 10px; display:none;  color:#b82e2e; }
+				
+
+
+
+
+
+.opciones_movil{width:80%; text-align:center; background-color:#093; color:#FFFFFF; margin:auto; margin-top:20%; border-radius: 10px; text-decoration:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#pantalla_pause_d{ z-index:5; position:fixed; background-color:#85e0e0;    
+				width:100%; height:90%; top: 10%; 
+				border-radius: 10px; display:none; 
+				
+}
+
+
+
+#como{width:90%; height:80%; color:#b82e2e; font-size:20px; margin:auto;}
+
+
+#nave_config{display:none;}
+
+
+#atras{display:none; float:left;}
+
+
+
+.bot_play{display:none;}
+
+
+
+
+
+
+
+#pantalla_nave_config{ z-index:5; position:fixed; background-color:#85e0e0;  
+				width:100%; height:90%; top: 10%;  
+				border-radius: 10px; display:none;
+				
+				}
+
+
+
+
+
+#elige_nave{ width:100%; height:80%;}
+
+#flechaIz{float:left; margin-top:10%; }
+
+#muestra_nave{ background-color:#000000; border-radius: 10px;  height:50%; margin-top:10%;}
+
+#flechaDer{float:right; margin-top:10%;}
+
+
+
+#opcion{ width:100%;}
+
+.aceptar{ text-decoration:none; float:left; background-color:#999999; color:#FFFFFF; margin-left:10%; font-size:30px; width:30%;
+border-style: outset; text-align:center;
+}
+
+
+.cancelar{ display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
