@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE questions>
+
+
+
+<questions>
+
+   	 <question id="jdos_001">
+
+			<type>radio</type>
+
+			<title> Hola Mundo </title>
+
+		</question>
+
+</questions>
